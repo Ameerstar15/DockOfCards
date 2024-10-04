@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #520101;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+
+
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    margin-top: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(39, 39, 39, 0.5);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #f9c74f;
+}
+
+.game-board {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+.player {
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+h2 {
+    color: #f94144;
+}
+
+.cards {
+    min-height: 80px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.card {
+    width: 100px;
+    /* Adjust width and height as needed */
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #577590;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f8961e;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#reset-game {
+    background-color: #f94144;
+    margin-top: 20px;
+}
+
+#reset-game:hover {
+    background-color: #f3722c;
+}
+
+#start-game {
+    margin-top: 20px;
+}
+
+#start-game:hover {
+    background-color: #f3722c;
+}
